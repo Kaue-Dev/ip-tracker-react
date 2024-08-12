@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --very-dark-gray: hsl(0, 0%, 15%);
+  --dark-gray: hsl(0, 0%, 60%);
+  --white: hsl(0, 0%, 95%);
+  --black: hsl(0, 0%, 10%);
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+input {
+  outline: 0;
+  border: 0;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
